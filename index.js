@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO_URL).then(() => {
 });
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'http://backend_cuvvett_final.vercel.app',
   optionsSuccessStatus: 200
 };
 
